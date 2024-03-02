@@ -1,0 +1,29 @@
+.page__make {
+	padding-bottom: 4.375rem;
+
+	box-shadow: 3.125rem 8.125rem 6.25rem 0 rgba(0, 0, 0, 0.15);
+	background: #fafafa;
+	position: relative;
+	z-index: 2222;
+	top: 10.75rem;
+	// max-width: 79.6875rem;
+	// margin: 0 auto;
+}
+
+.make__container {}
+
+._container {}
+
+.make__title {
+	font-weight: 700;
+	font-size: 3.75rem;
+	line-height: 123%;
+	color: var(--low-color);
+	max-width: 51.375rem;
+	padding-bottom: 3.125rem;
+	padding-top: 4.375rem;
+}
+
+.make__btn {}
+
+._button {}

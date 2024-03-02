@@ -1,0 +1,49 @@
+.page__idea {
+	border-top: 0.0625rem solid rgba(33, 56, 66, 0.1);
+	padding-bottom: 9.375rem;
+}
+
+.idea__title {
+	font-weight: 700;
+	font-size: 2.25rem;
+	line-height: 128%;
+	color: var(--low-color);
+	max-width: 37.9375rem;
+	padding-bottom: 3.75rem;
+	padding-top: 9.375rem;
+}
+
+.idea__cards {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1.875rem;
+}
+
+.idea__card {
+	display: flex;
+	flex-direction: column;
+}
+
+.idea__card-title {
+	font-weight: 500;
+	font-size: 1.5rem;
+	line-height: 142%;
+	text-transform: uppercase;
+	color: var(--low-color);
+	max-width: 11.4375rem;
+	padding-bottom: 1.25rem;
+}
+
+.idea__text {
+	font-weight: 400;
+	font-size: 0.875rem;
+	line-height: 186%;
+	color: var(--text-color);
+	max-width: 12.125rem;
+	padding-bottom: 1.875rem;
+}
+
+.idea__btn {
+	margin-top: auto;
+	margin-bottom: 0;
+}

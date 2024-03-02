@@ -1,0 +1,13 @@
+// базовые подключения
+@import "vars";
+@import "fonts";
+@import "base";
+@import "nullstyle";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./burger";
+@import "./components/idea";
+@import "./components/make";
+@import "./components/footer";
+@import "./components/adaptive";

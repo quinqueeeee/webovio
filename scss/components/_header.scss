@@ -1,0 +1,43 @@
+.page__header {
+	background: url("../img/header/background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 811px;
+	margin-bottom: 9.375rem;
+}
+
+.nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 1.5625rem 0;
+}
+
+.nav__burger {}
+
+.header__content {
+	padding-top: 7.5rem;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.header__subtitle {
+	font-size: 0.875rem;
+	padding-bottom: 1.375rem;
+}
+
+.header__title {
+	font-weight: 700;
+	font-size: 3.75rem;
+	line-height: 123%;
+	max-width: 38.5rem;
+	padding-bottom: 1.5rem;
+}
+
+.header__text {
+	line-height: 162%;
+	max-width: 36.3125rem;
+	padding-bottom: 2.8125rem;
+}
